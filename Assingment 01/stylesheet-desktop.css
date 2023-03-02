@@ -59,10 +59,11 @@ header ul li img{
 main{
     grid-row: 3;
     grid-column: 2/5;
-
+    margin-top: 5px;
     display: grid;
     grid-template-columns: 50% 50%;
 }
+
 
 .main-left{
     grid-column: 1;
@@ -78,14 +79,18 @@ main{
     padding: 5px;
     
 }
-.main-right ul{
-    border: 5px solid black;
+.about-me-box ul{
+    border: 2px solid aqua;
     margin-top: 50%;
 
+
 }
-.main-right ul li{
+.about-me-box ul li{
     list-style: none;
+    line-height: 2em;
+    color: white;
 }
+
 footer{
     grid-row: 4;
 }
