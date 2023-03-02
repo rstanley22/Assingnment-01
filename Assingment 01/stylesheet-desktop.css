@@ -66,20 +66,26 @@ main{
 
 .main-left{
     grid-column: 1;
-    border: 1px solid black;
+    
 }
 .main-left img{
-    height: 250px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
 }
 
 .main-right{
     grid-column: 2;
-    border: 1px solid blue;
+    padding: 5px;
+    
 }
+.main-right ul{
+    border: 5px solid black;
+    margin-top: 50%;
 
-
-
+}
+.main-right ul li{
+    list-style: none;
+}
 footer{
     grid-row: 4;
 }
