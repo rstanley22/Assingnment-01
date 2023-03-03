@@ -93,4 +93,19 @@ main{
 
 footer{
     grid-row: 4;
+    grid-column: 1/6;
+    background: linear-gradient( darkgrey, lightgrey);
+    border: 2px solid black;
+
+}
+footer ul{
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+
+footer ul li{
+    color: black;
 }
