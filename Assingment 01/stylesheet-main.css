@@ -9,3 +9,8 @@ h2{
 h3{
     color: aqua;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
