@@ -89,6 +89,34 @@ main.index-page{
 
 /* contact me page */
 
+main.contact-page{
+    grid-row: 3;
+    grid-column: 2;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contact-page label{
+    color:white;
+    
+}
+
+.contact-page input{
+    background-color: black;
+    border: 1px solid white;
+    color:white;
+}
+
+.contact-page textarea{
+    background-color: black;
+    border: 1px solid white ;
+}
+
+.contact-page input[type="submit"]{
+    background-color: black;
+    color: white;
+}
 
 .about-me-box ul{
     border: 2px solid aqua;
