@@ -63,7 +63,7 @@ header{
 }
 
 /* main content for index */
-main{
+main.index-page{
     grid-row: 3;
     grid-column: 2/5;
     margin-top: 5px;
@@ -85,6 +85,11 @@ main{
     padding: 5px;
     
 }
+
+
+/* contact me page */
+
+
 .about-me-box ul{
     border: 2px solid aqua;
     margin-top: 50%;
