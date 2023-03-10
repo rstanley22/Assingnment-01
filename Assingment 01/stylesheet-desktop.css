@@ -85,6 +85,17 @@ main.index-page{
     padding: 5px;
     
 }
+.about-me-box ul{
+    border: 2px solid aqua;
+    margin-top: 50%;
+
+
+}
+.about-me-box ul li{
+    list-style: none;
+    line-height: 2em;
+    color: white;
+}
 
 
 /* contact me page */
@@ -118,17 +129,7 @@ main.contact-page{
     color: white;
 }
 
-.about-me-box ul{
-    border: 2px solid aqua;
-    margin-top: 50%;
 
-
-}
-.about-me-box ul li{
-    list-style: none;
-    line-height: 2em;
-    color: white;
-}
 
 
 
