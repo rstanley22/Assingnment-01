@@ -96,6 +96,28 @@ main.index-page{
     line-height: 2em;
     color: white;
 }
+/* work-exp page */
+.work-experiance-page{
+    grid-column: 2/5;
+    display: grid;
+    grid-template-columns: 50% 2% 50%;
+
+}
+
+.work-experiance-page .army{
+    grid-column: 1;
+}
+
+.work-experiance-page .cba{
+    grid-column: 3;
+}
+
+
+.work-experiance-page img{
+height: 250px;
+width: 350px;
+margin-top: 5px;
+}
 
 
 /* contact me page */
