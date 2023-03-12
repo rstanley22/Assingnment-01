@@ -99,34 +99,51 @@ main.index-page{
 
 
 /* contact me page */
-
-main.contact-page{
+.main-contact{
+    display: grid;
+    grid-column: 2/6;
     grid-row: 3;
+    grid-template-columns: 50% 50%;
+}
+.contact-page{
+    margin-top: 5px;
+
+}
+
+.extra-info{
     grid-column: 2;
     margin-top: 5px;
-    display: grid;
-    grid-template-columns: 50% 50%;
+}
+
+
+.extra-info ul li{
+    list-style: none;
+    color: white;
 }
 
 .contact-page label{
     color:white;
-    
+    padding-top: 5px;
+    text-align: left;
 }
 
 .contact-page input{
     background-color: black;
     border: 1px solid white;
     color:white;
+    margin-bottom: 10px;
 }
 
 .contact-page textarea{
     background-color: black;
     border: 1px solid white ;
+    margin-bottom: 10px;
 }
 
 .contact-page input[type="submit"]{
     background-color: black;
     color: white;
+    
 }
 
 
