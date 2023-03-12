@@ -100,7 +100,7 @@ main.index-page{
 .work-experiance-page{
     grid-column: 2/5;
     display: grid;
-    grid-template-columns: 50% 2% 50%;
+    grid-template-columns: 49% 2% 49%;
 
 }
 
@@ -115,10 +115,11 @@ main.index-page{
 
 .work-experiance-page img{
 height: 250px;
-width: 350px;
+width: 100%;
 margin-top: 5px;
 }
 
+/* portfolio page */
 
 /* contact me page */
 .main-contact{
