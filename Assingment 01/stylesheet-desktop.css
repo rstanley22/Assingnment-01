@@ -22,6 +22,7 @@ nav{
     color: aqua;
     text-align: center;
     font-size: 2em;
+    font-family: fantasy, sans-serif;
 }
 nav ul{
     list-style: none; 
@@ -155,6 +156,12 @@ margin-top: 5px;
     width: 250px;
     
 }
+
+
+
+/* Report page */
+
+
 
 /* contact me page */
 .main-contact{
