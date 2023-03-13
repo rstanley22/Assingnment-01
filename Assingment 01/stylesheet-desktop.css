@@ -161,7 +161,13 @@ margin-top: 5px;
 
 /* Report page */
 
+.report-page{
+    grid-column: 2/5;
+}
 
+.rep-1{
+    margin-top: 1em;
+}
 
 /* contact me page */
 .main-contact{

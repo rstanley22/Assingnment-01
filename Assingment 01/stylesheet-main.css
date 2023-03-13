@@ -5,11 +5,13 @@ P{
 h2{
     color:white;
     font-family: fantasy,sans-serif;
+    letter-spacing: .2rem;
 }
 
 h3{
     color: aqua;
     font-family: fantasy,sans-serif;
+    letter-spacing: .2rem;
 }
 
 a{
