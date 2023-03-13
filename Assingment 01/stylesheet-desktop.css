@@ -121,6 +121,41 @@ margin-top: 5px;
 
 /* portfolio page */
 
+.portfolio-page{
+    overflow: scroll;
+    grid-column: 2/5;
+    height: 400px;
+}
+
+.portfolio-page p{
+    color: black;
+}
+.portfolio-page ul{
+    list-style: none;
+}
+
+
+.portfolio-page li{
+    border: 2px solid black;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 5px;
+}
+
+.portfolio-page li:nth-child(odd){
+    background-color: tan;
+}
+
+.portfolio-page li:nth-child(even){
+    background-color: palegoldenrod;
+}
+
+.portfolio-page li img{
+    height: 150px;
+    width: 250px;
+    
+}
+
 /* contact me page */
 .main-contact{
     display: grid;
