@@ -12,16 +12,20 @@
     <link rel="stylesheet" href="css/all.min.css">
 </head>
 
-<body>
-    <nav>
+<body id="drop-down" >
+    <nav >
+        <a class="show-nav" href="#">> </a>
+
         <label class="nav-label">About me</label>
         <ul>
             <li><a href="index.html"> About me</a></li>
             <li><a href="portfolio.html">Portfolio</a> </li>
-            <li> <a href="work-experiance.html">Work Experiance</a>  </li>
+            <li><a href="work-experiance.html">Work Experiance</a>  </li>
             <li><a href="report.html">Report</a> </li>
             <li><a href="contact-me.html">Contact Me </a></li>
         </ul>
+    <a href="#drop-down" class="on show-nav"><i class="fa-solid fa-burger"></i></a>
+    <a href="#" class="off show-nav"><i class="fa-solid fa-burger"></i></a>
     </nav>
     <header>
         <div class="header-img-left" ><img class="img-1" src="images/header-img.jpg" alt="header image"></div>

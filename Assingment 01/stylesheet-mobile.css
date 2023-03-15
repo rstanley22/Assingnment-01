@@ -1,0 +1,110 @@
+body {
+    background: rgb(53, 51, 51);
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: auto auto auto auto;
+
+}
+
+/* nav */
+nav {
+    grid-row: 1;
+    grid-column: 1/3;
+}
+
+
+.nav-label {
+    color: aqua;
+    text-align: center;
+    font-size: 2em;
+    font-family: fantasy, sans-serif;
+}
+
+nav i {
+    color: aqua;
+    margin-top: 0;
+}
+
+nav ul{
+    position: fixed;
+    display: block;
+    background-color: yellow;
+    list-style: none;
+    border: 1px solid red;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+
+    
+}
+.show-nav{
+    display: block;
+    color: aqua;
+}
+
+#drop-down .on {
+    display: block;
+}
+#drop-down .off {
+    display: none;
+}
+#drop-down:target .on {
+    display: none;
+}
+#drop-down:target .off {
+    display: block;
+}
+
+#drop-down:target nav ul{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    grid-row: 2;
+}
+
+.img-1{
+    width: 100%;
+    opacity: 0.7;
+}
+
+.header-img-left{
+    grid-column: 1;
+    width: 100%;
+}
+
+.header-img-right{
+    grid-column: 2;
+    width: 100%;
+}
+
+/* about me page mobile */
+
+.index-page {
+    grid-row: 3;
+}
+
+.main-left img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* footer */
+
+footer {
+    grid-row: 4;
+}
