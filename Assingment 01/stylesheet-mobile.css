@@ -15,7 +15,8 @@ body {
 /* nav */
 nav {
     grid-row: 1;
-    grid-column: 1/3;
+    grid-column: 1/4;
+    background: linear-gradient( darkgrey, lightgrey);
 }
 
 
@@ -68,7 +69,6 @@ nav ul li{
 #drop-down:target nav ul{
     display: none;
 }
-
 
 
 header{
@@ -160,3 +160,76 @@ footer ul li{
 
 /* portfolio */
 
+.portfolio-page{
+    grid-row: 3;
+    grid-column: 2/5;
+}
+
+.portfolio-page li img{
+    height: 75%;
+    width: 75%;
+}
+
+.portfolio-page ul{
+    list-style: none;
+}
+
+/* work exp page */
+
+.work-experiance-page{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.army{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.cba{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.work-experiance-page img{
+    height: 50%;
+    width: 75%;
+}
+
+/* report */
+
+.report-page{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.rep-1{
+    margin-top: 1em;
+}
+
+/* contact page */
+
+.main-contact{
+    grid-row: 3;
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.extra-info{
+    grid-row: 1;
+    
+}
+
+.extra-info ul{
+    border: 2px dotted whitesmoke;
+}
+
+.extra-info ul li{
+    list-style: none;
+    color: white;
+    padding: 2px;
+}
+
+.contact-page{
+    grid-row: 2;
+}
