@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 body {
     background: rgb(53, 51, 51);
     display: grid;
@@ -18,6 +24,7 @@ nav {
     text-align: center;
     font-size: 2em;
     font-family: fantasy, sans-serif;
+    padding-left: 5px;
 }
 
 nav i {
@@ -28,19 +35,21 @@ nav i {
 nav ul{
     position: fixed;
     display: block;
-    background-color: yellow;
+    background: linear-gradient( darkgrey, lightgrey);
     list-style: none;
     border: 1px solid red;
     top: 0;
-    left: 50%;
-    width: 50%;
-    height: 50%;
-
-    
+    left: 62%;
+    width: 33%;
+    height: 14%;
+}
+nav ul li{
+    margin-bottom: 2px;
 }
 .show-nav{
     display: block;
     color: aqua;
+    padding-left: 5px;
 }
 
 #drop-down .on {
@@ -62,18 +71,13 @@ nav ul{
 
 
 
-
-
-
-
-
-
-
-
-
-
-header {
-    grid-row: 2;
+header{
+    grid-row: 2;    
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: auto;
+    margin: 0;
 }
 
 .img-1{
@@ -84,27 +88,75 @@ header {
 .header-img-left{
     grid-column: 1;
     width: 100%;
+    z-index: -1;
 }
 
 .header-img-right{
     grid-column: 2;
     width: 100%;
+    z-index: -1;
 }
 
 /* about me page mobile */
 
 .index-page {
     grid-row: 3;
+    grid-column: 2/5;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
 }
 
+.main-left{
+    grid-column: 1;
+}
 .main-left img{
-    height: 100%;
-    width: 100%;
+    height: 25vh;
+    width: 75%;
 }
 
+.main-right{
+    grid-column: 3;
+    padding-right: 5px;
+}
 
+.main-right p{
+    font-size: 1em;
+}
+
+.about-me-box ul{
+    border: 2px solid aqua;
+    margin-top: 50%;
+    padding: 0;
+
+}
+.about-me-box ul li{
+    list-style: none;
+    line-height: 2em;
+    color: white;
+}
 /* footer */
 
-footer {
+footer{
     grid-row: 4;
+    grid-column: 1/6;
+    background: linear-gradient( darkgrey, lightgrey);
+    border: 2px solid black;
+    position: fixed;
+    bottom: 0;
+
 }
+footer ul{
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+footer ul li{
+    color: black;
+}
+
+/* portfolio */
+
