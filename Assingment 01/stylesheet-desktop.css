@@ -43,7 +43,7 @@ nav ul{
 nav ul li:hover{
     border: 1px solid black;
     cursor: pointer;
-    scale: 1.5;
+    transform: scale(1.5);
     background-color: black;
     border-radius: 15%;
     color: whitesmoke;
@@ -232,12 +232,6 @@ margin-top: 5px;
 
 
 
-
-
-
-
-
-
 /* generic footer */
 footer{
     grid-row: 4;
@@ -264,7 +258,7 @@ footer ul li{
 }
 
 footer ul li:hover{
-    scale: 1.5;
+    transform: scale(1.5);
     background-color: black;
 }
 footer ul li i:hover{
